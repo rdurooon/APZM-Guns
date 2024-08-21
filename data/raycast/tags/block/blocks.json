@@ -1,0 +1,22 @@
+{
+  "values": [
+    "#minecraft:air",
+    "#minecraft:all_hanging_signs",
+    "#minecraft:all_signs",
+    "#minecraft:banners",
+    "#minecraft:buttons",
+    "#minecraft:campfires",
+    "#minecraft:candles",
+    "#minecraft:cave_vines",
+    "#minecraft:coral_plants",
+    "#minecraft:doors",
+    "#minecraft:fences",
+    "#minecraft:flowers",
+    "#minecraft:leaves",
+    "#minecraft:rails",
+    "#minecraft:pressure_plates",
+    "#minecraft:tall_flowers",
+    "#minecraft:saplings",
+    "#minecraft:wool_carpets"
+  ]
+}

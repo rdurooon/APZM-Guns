@@ -1,0 +1,1 @@
+execute as @a[scores={delay=1..}] run scoreboard players remove @s delay 1
