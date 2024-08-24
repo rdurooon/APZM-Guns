@@ -34,3 +34,5 @@ stopsound @s * guns:raygun.reload
 stopsound @s * guns:raygun.reload_speed
 stopsound @s * guns:dg2.reload
 stopsound @s * guns:dg2.reload_speed
+stopsound @s * guns:thunder.reload
+stopsound @s * guns:thunder.reload_speed

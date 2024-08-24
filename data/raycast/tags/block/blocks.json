@@ -17,6 +17,7 @@
     "#minecraft:pressure_plates",
     "#minecraft:tall_flowers",
     "#minecraft:saplings",
-    "#minecraft:wool_carpets"
+    "#minecraft:wool_carpets",
+    "minecraft:barrier"
   ]
 }

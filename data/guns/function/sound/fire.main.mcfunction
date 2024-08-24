@@ -49,3 +49,5 @@ execute if score @s idgun matches 60 run function guns:sound/spas/fire
 execute if score @s idgun matches 100 run function guns:sound/raygun/fire
 # DG-2
 execute if score @s idgun matches 160 run function guns:sound/dg2/fire
+# Thundergun
+execute if score @s idgun matches 200 run function guns:sound/thunder/fire

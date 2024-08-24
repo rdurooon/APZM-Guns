@@ -2,6 +2,7 @@
 
 # Pistolas
 execute if score @s[tag=!dt] idgun matches 10..19 run scoreboard players set @s delay 2
+execute if score @s[tag=!dt] idgun matches 101 run scoreboard players set @s delay 2
 # Semis
 execute if score @s[tag=!dt] idgun matches 20..29 run scoreboard players set @s delay 2
 # Subs
@@ -20,12 +21,13 @@ execute if score @s[tag=!dt] delay matches 0 if score @s idgun matches 54 run sc
 execute if score @s[tag=!dt] delay matches 0 if score @s idgun matches 60 run scoreboard players set @s delay 20
 # Wonder Weapons
 execute if score @s[tag=!dt] delay matches 0 if score @s idgun matches 100 run scoreboard players set @s delay 8
-execute if score @s[tag=!dt] idgun matches 101 run scoreboard players set @s delay 2
 execute if score @s[tag=!dt] delay matches 0 if score @s idgun matches 160 run scoreboard players set @s delay 26
+execute if score @s[tag=!dt] delay matches 0 if score @s idgun matches 200 run scoreboard players set @s delay 25
 
 ## COM DOUBLE TAP
 # Pistolas
 execute if score @s[tag=dt] idgun matches 10..19 run scoreboard players set @s delay 2
+execute if score @s[tag=dt] idgun matches 101 run scoreboard players set @s delay 2
 # Semis
 execute if score @s[tag=dt] idgun matches 20..29 run scoreboard players set @s delay 2
 # Subs
@@ -44,7 +46,7 @@ execute if score @s[tag=dt] delay matches 0 if score @s idgun matches 54 run sco
 execute if score @s[tag=dt] delay matches 0 if score @s idgun matches 60 run scoreboard players set @s delay 18
 # Wonder Weapons
 execute if score @s[tag=dt] delay matches 0 if score @s idgun matches 100 run scoreboard players set @s delay 8
-execute if score @s[tag=dt] idgun matches 101 run scoreboard players set @s delay 2
 execute if score @s[tag=dt] delay matches 0 if score @s idgun matches 160 run scoreboard players set @s delay 24
+execute if score @s[tag=dt] delay matches 0 if score @s idgun matches 200 run scoreboard players set @s delay 20
 
 

@@ -61,3 +61,6 @@ execute if score @s[tag=sc] idgun matches 100 run scoreboard players set @s relo
 # DG2
 execute if score @s[tag=!sc] idgun matches 160 run scoreboard players set @s reload 148
 execute if score @s[tag=sc] idgun matches 160 run scoreboard players set @s reload 81
+# Thundergun
+execute if score @s[tag=!sc] idgun matches 200 run scoreboard players set @s reload 90
+execute if score @s[tag=sc] idgun matches 200 run scoreboard players set @s reload 50

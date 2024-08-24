@@ -105,3 +105,8 @@ execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":160,"minecraft:custom_data":{pap:0b}}}]}] if score @s idgun.save matches 160 run scoreboard players set @s reserve.save 15
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":160,"minecraft:custom_data":{pap:1b}}}]}] if score @s idgun.save matches 160 run scoreboard players set @s ammo.save 6
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":160,"minecraft:custom_data":{pap:1b}}}]}] if score @s idgun.save matches 160 run scoreboard players set @s reserve.save 30
+# Thundergun
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":200,"minecraft:custom_data":{pap:0b}}}]}] if score @s idgun.save matches 200 run scoreboard players set @s ammo.save 2
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":200,"minecraft:custom_data":{pap:0b}}}]}] if score @s idgun.save matches 200 run scoreboard players set @s reserve.save 12
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":200,"minecraft:custom_data":{pap:1b}}}]}] if score @s idgun.save matches 200 run scoreboard players set @s ammo.save 4
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_model_data":200,"minecraft:custom_data":{pap:1b}}}]}] if score @s idgun.save matches 200 run scoreboard players set @s reserve.save 24

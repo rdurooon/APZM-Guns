@@ -101,3 +101,8 @@ execute if score @s idgun matches 160 if score @s pap matches 0 run scoreboard p
 execute if score @s idgun matches 160 if score @s pap matches 0 run scoreboard players set @s reserve 15
 execute if score @s idgun matches 160 if score @s pap matches 1 run scoreboard players set @s ammo 6
 execute if score @s idgun matches 160 if score @s pap matches 1 run scoreboard players set @s reserve 30
+# Thundergun
+execute if score @s idgun matches 200 if score @s pap matches 0 run scoreboard players set @s ammo 2
+execute if score @s idgun matches 200 if score @s pap matches 0 run scoreboard players set @s reserve 12
+execute if score @s idgun matches 200 if score @s pap matches 1 run scoreboard players set @s ammo 4
+execute if score @s idgun matches 200 if score @s pap matches 1 run scoreboard players set @s reserve 24

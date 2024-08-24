@@ -2,6 +2,7 @@
 execute if score @s particle matches 101 run function guns:effect/special/mustang
 execute if score @s particle matches 100 run function guns:effect/special/raygun/raygun
 execute if score @s particle matches 160 run function guns:effect/special/dg2
+execute if score @s particle matches 200 run function guns:effect/special/thunder/thunder
 
 ## SE NÃO
 # Arma sem PaP

@@ -7,6 +7,10 @@ execute as @a if score @s drop matches 1 run function guns:click/reload
 execute as @a if score @s reload matches 1 run function guns:reload/reload
 
 ## Outros comandos
+# Ignorar
+execute as @a if score @s idgun matches 200 run scoreboard players set @s ignore 1
+execute as @a unless score @s idgun matches 200 run scoreboard players set @s ignore 0
+
 # Timers
 execute as @a run scoreboard players remove @s[scores={reload=1..}] reload 1
 

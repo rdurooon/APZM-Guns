@@ -20,4 +20,5 @@ execute if score @s delay matches 0 if score @s idgun matches 60 run scoreboard 
 execute if score @s delay matches 0 if score @s idgun matches 100 run scoreboard players set @s delay 6
 execute if score @s idgun matches 101 run scoreboard players set @s delay 2
 execute if score @s delay matches 0 if score @s idgun matches 160 run scoreboard players set @s delay 18
+execute if score @s delay matches 0 if score @s idgun matches 200 run scoreboard players set @s delay 15
 

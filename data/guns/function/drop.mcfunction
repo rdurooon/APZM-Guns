@@ -4,4 +4,4 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{gun:1b}}
 execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{gun:1b}}}}] at @s on origin run tp @n[type=item] @s
 
 # Drop de reload
-execute as @a[scores={reserve=1..,reload=0}] unless score @s ammo = @s ammo.t if entity @n[type=item,nbt={Item:{components:{"minecraft:custom_data":{gun:1b}}}}] run scoreboard players set @s drop 1
+execute as @a[scores={reserve=1..,reload=0}] if score @s ignore matches 0 unless score @s ammo = @s ammo.t if entity @n[type=item,nbt={Item:{components:{"minecraft:custom_data":{gun:1b}}}}] run scoreboard players set @s drop 1

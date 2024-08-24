@@ -48,3 +48,5 @@ execute as @s if score @s idgun matches 60 run function guns:sound/spas/reload
 execute as @s if score @s idgun matches 100 run function guns:sound/raygun/reload
 # DG2
 execute as @s if score @s idgun matches 160 run function guns:sound/dg2/reload
+# DG2
+execute as @s if score @s idgun matches 200 run function guns:sound/thunder/reload

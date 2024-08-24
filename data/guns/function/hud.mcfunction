@@ -14,7 +14,10 @@ execute as @a[nbt=!{SelectedItem:{id:"minecraft:iron_ingot",count:1,components:{
 ## Mostrar HUD (Munição)
 execute as @a[scores={display=1,}] run title @s actionbar ["",{"text":"[","bold":true},{"score":{"name":"@s","objective":"ammo"},"bold":true},{"text":"/","bold":true},{"score":{"name":"@s","objective":"reserve"},"bold":true},{"text":"]","bold":true}]
 # Pouca munição
-execute as @a[scores={display=1,reserve=1..}] if score @s ammo <= @s end.ammo run title @s actionbar ["",{"text":"[","bold":true},{"score":{"name":"@s","objective":"ammo"},"bold":true},{"text":"/","bold":true},{"score":{"name":"@s","objective":"reserve"},"bold":true},{"text":"] ","bold":true},{"text":"RECARREGUE COM >","bold":true,"color":"red"},{"keybind":"key.drop","bold":true,"color":"red","underlined":true},{"text":"<","bold":true,"color":"red"}]
+# Non-ignore
+execute as @a[scores={display=1,reserve=1..}] if score @s ignore matches 0 if score @s ammo <= @s end.ammo run title @s actionbar ["",{"text":"[","bold":true},{"score":{"name":"@s","objective":"ammo"},"bold":true},{"text":"/","bold":true},{"score":{"name":"@s","objective":"reserve"},"bold":true},{"text":"] ","bold":true},{"text":"RECARREGUE COM >","bold":true,"color":"red"},{"keybind":"key.drop","bold":true,"color":"red","underlined":true},{"text":"<","bold":true,"color":"red"}]
+# Ignore
+execute as @a[scores={display=1,reserve=1..}] if score @s ignore matches 1 if score @s ammo <= @s end.ammo run title @s actionbar ["",{"text":"[","bold":true},{"score":{"name":"@s","objective":"ammo"},"bold":true},{"text":"/","bold":true},{"score":{"name":"@s","objective":"reserve"},"bold":true},{"text":"]","bold":true}]
 
 ## Mostrar HUD (Reload)
 execute as @a[scores={display=2}] run title @s actionbar {"bold":true,"italic":false,"text":"Recarregando..."}

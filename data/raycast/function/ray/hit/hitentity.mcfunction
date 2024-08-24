@@ -6,7 +6,7 @@ tag @n[tag=ray] add hitEntity
     # Se for arma normal
     execute if score @n[tag=ray] particle matches 10..64 run function guns:damage/common
     # Se for arma especial
-    execute if score @n[tag=ray] particle matches 101 run function guns:damage/explosion/mustang
+    execute if score @n[tag=ray] particle matches 101 run function guns:damage/explosion
     execute if score @n[tag=ray] particle matches 160 run function guns:special/dg2/start
     
 # Count Hit
