@@ -14,6 +14,7 @@ scoreboard objectives add drop dummy
 scoreboard objectives add end.ammo dummy
 scoreboard objectives add ray.dg2 dummy
 scoreboard objectives add drop dummy
+scoreboard objectives add hp dummy
 # Carregar scores
 scoreboard players add @a ammo 0
 scoreboard players add @a ammo.save 0
@@ -31,5 +32,6 @@ scoreboard players add @a end.ammo 0
 scoreboard players add #count ray.dg2 0
 scoreboard players add #itt ray.dg2 0
 scoreboard players add @a drop 0
+scoreboard players set #baseZ hp 100
 # Texto
 tellraw @a ["",{"text":"Guns ativo!","color":"yellow"}]

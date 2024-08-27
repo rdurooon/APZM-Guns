@@ -3,6 +3,7 @@ function guns:drop
 function guns:hud
 function guns:swap/detect
 function guns:delay/delay
+function guns:health
 execute as @a if score @s drop matches 1 run function guns:click/reload
 execute as @a if score @s reload matches 1 run function guns:reload/reload
 
